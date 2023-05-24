@@ -1,0 +1,25 @@
+theme = "onedark"
+
+[editor]
+line-number = "relative"
+auto-save = true
+cursorline = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[keys.normal]
+C-s = ":w"
+
+[keys.insert]
+C-s = ":w"
